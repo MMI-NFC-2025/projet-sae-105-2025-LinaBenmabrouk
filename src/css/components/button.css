@@ -49,3 +49,31 @@
     width: 13px;
     height: 13px;
 }
+
+.other-articles-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem;
+    border: 2px solid var(--vert-céladon);
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--noir-bleuté);
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.other-articles-button img {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s ease;
+}
+
+.other-articles-button:hover img {
+    transform: translateX(4px);
+}
+
+
+

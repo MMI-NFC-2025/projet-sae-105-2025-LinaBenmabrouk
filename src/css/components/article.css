@@ -1,0 +1,39 @@
+.article-section {
+    color: var(--or-pâle);
+    padding: 4rem 2rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: var(--Line-Height-54, 54px);
+    text-transform: uppercase;
+    color: var(--or-foncé);
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0rem;
+}
+
+.article-section p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: var(--Line-Height-20, 20px);
+    margin: 0;
+    color: var(--noir-bleuté);
+    text-align: justify;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 1rem 0;
+}

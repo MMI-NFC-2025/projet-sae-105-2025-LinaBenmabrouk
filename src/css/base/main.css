@@ -133,5 +133,27 @@ body {
     height: 14px;
 }
 
+.other-articles {
+    padding: 1rem 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-family: 'Crimson Text', sans-serif;
+}
 
+.other-articles hr {
+    border: none;
+    border-top: 2px solid var(--or-pâle);
+    margin: 0;
+}
 
+.other-articles-title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--noir-bleuté);
+    margin: 0;
+    letter-spacing: 0rem;
+}

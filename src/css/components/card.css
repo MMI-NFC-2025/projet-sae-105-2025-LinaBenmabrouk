@@ -14,6 +14,7 @@
     background-color: var(--blanc);
     padding: 2rem;
     max-width: 400px;
+    min-width: 300px;
     text-decoration: none;
     color: var(--noir-bleuté);
     transition: transform 0.2s ease;

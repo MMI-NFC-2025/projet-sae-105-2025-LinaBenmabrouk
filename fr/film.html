@@ -1,159 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Chronova</title>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/src/css/style.css"/>
+   
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronova</title>
 
-        <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/site.webmanifest" />
+</head>
 
-        <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-        <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-        <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-        <link rel="manifest" href="/assets/site.webmanifest" />
-    </head>
+<body>
+    <header class="header">
+        <a href="/index.html" class="logo" aria-label="Retour à l'accueil">
+            <img src="/assets/icons/Logo.svg" alt="Logo Chronova" loading="lazy" />
+        </a>
 
-    <body>
-        <header class="header">
-            <a href="/index.html" class="logo" aria-label="Retour à l'accueil">
-                <img src="/assets/icons/Logo.svg" alt="Logo Chronova" loading="lazy" />
-            </a>
+        <button class="menu-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </button>
 
-            <button class="menu-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </button>
+        <nav class="nav" aria-label="Navigation principale">
+            <ul class="nav-list">
+                <li><a href="/fr/histoire.html" class="nav-link">Mileva Einstein : La Chercheuse</a></li>
+                <li><a href="/fr/effet-matilda.html" class="nav-link">Effet Matilda</a></li>
+                <li><a href="/fr/article.html" class="nav-link">Les Femmes de Sciences</a></li>
+                <li><a href="/fr/theorie.html" class="nav-link">Espace-Temps & Vitesse de la Lumière</a></li>
+                <li><a href="/fr/livre.html" class="nav-link">L'Espace-Temps, Jean-Paul Auffray</a></li>
+                <li><a href="/fr/film.html" class="nav-link">Retour vers le Futur</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <nav class="nav" aria-label="Navigation principale">
-                <ul class="nav-list">
-                    <li><a href="/fr/histoire.html" class="nav-link">Mileva Einstein : La Chercheuse</a></li>
-                    <li><a href="/fr/effet-matilda.html" class="nav-link">Effet Matilda</a></li>
-                    <li><a href="/fr/article.html" class="nav-link">Les Femmes de Sciences</a></li>
-                    <li><a href="/fr/theorie.html" class="nav-link">Espace-Temps & Vitesse de la Lumière</a></li>
-                    <li><a href="/fr/livre.html" class="nav-link">L'Espace-Temps, Jean-Paul Auffray</a></li>
-                    <li><a href="/fr/film.html" class="nav-link">Retour vers le Futur</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main>
-            <div class="hero">
+    <main>
+        <div class="hero">
             <a href="/index.html" class="hero-button" aria-label="Retour à l'accueil">
                 <img src="/assets/icons/fleche_gauche.svg" alt="" loading="lazy" /> Retour à l'accueil
             </a>
         </div>
 
-            <section class="introduction">
-                <h1 class="title">Retour vers le Futur</h1>
-            </section>
+        <section class="introduction">
+            <h1 class="title">Retour vers le Futur</h1>
+        </section>
 
-            <section class="article-section">
-                <h2 class="section-title">Bande d'annonce</h2>
-                <div class="video-container">
-                    <video id="myVideo" controls>
-                        <source src="/assets/video/Bande-annonce.mp4" type="video/mp4" />
-                    </video>
-                    <img src="/assets/icons/Play_icon.svg" class="svg-overlay" alt="" />
+        <section class="article-section">
+            <h2 class="section-title">Bande d'annonce</h2>
+            <div class="video-container">
+                <video id="myVideo" controls>
+                    <source src="/assets/video/Bande-annonce.mp4" type="video/mp4" />
+                </video>
+                <img src="/assets/icons/Play_icon.svg" class="svg-overlay" alt="" />
+            </div>
+        </section>
+
+        <section class="content">
+            <h2 class="section-title">Retour vers le Futur et la science</h2>
+            <img src="/assets/img/voiture.avif" alt="Voiture du film Retour vers le Futur" class="content-image" loading="lazy" />
+            <p>
+                "Retour vers le Futur" (1985) est devenu un film culte qui a introduit les concepts de voyage dans le temps, de paradoxes temporels et de relativité à des millions de spectateurs. Bien que romancé et simplifié, le film offre une excellente porte d'entrée pour discuter des vraies théories scientifiques.
+            </p>
+            <p>
+                Le film peut être utilisé comme outil pédagogique pour aborder les travaux de physiciens comme Einstein, et par extension, pour évoquer le rôle méconnu de Mileva Marić Einstein dans le développement de la théorie de la relativité.
+            </p>
+        </section>
+
+        <section class="article-section">
+            <h2 class="section-title">Analyse scientifique</h2>
+
+            <p>
+                "Retour vers le Futur" illustre brillamment les concepts de dilatation temporelle et de paradoxes causaux. La fameuse DeLorean atteignant 88 mph (141 km/h) fait référence à la vitesse nécessaire pour franchir une "barrière temporelle" imaginaire, un parallèle créatif avec la vitesse de la lumière en physique relativiste.
+            </p>
+            <p>
+                Le film soulève des questions fondamentales sur la nature du temps et de la causalité, thèmes centraux dans les travaux de Mileva Einstein sur la relativité restreinte.
+            </p>
+
+            <h2 class="section-title">Films corrélés</h2>
+
+            <section class="carousel" aria-label="Carrousel tactile">
+                <div class="carousel-track">
+                    <article class="card">
+                        <img src="/assets/img/film1.avif" alt="Illustration carte 1" class="card-img" />
+                        <h3 class="card-title">Les figures de l’ombre</h3>
+                        <p class="card-text"><img src="/assets/icons/calendrier.svg">2016 - Theodore Melfi</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="/assets/img/film2.avif" alt="Illustration carte 2" class="card-img" />
+                        <h3 class="card-title">Radioactive</h3>
+                        <p class="card-text"><img src="/assets/icons/calendrier.svg">2019 - Marjane Satrapi</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="/assets/img/film3.avif" alt="Illustration carte 3" class="card-img" />
+                        <h3 class="card-title">Einstein & Eddington</h3>
+                        <p class="card-text"><img src="/assets/icons/calendrier.svg">2008 - Philip Martin</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="/assets/img/film4.avif" alt="Illustration carte 4" class="card-img" />
+                        <h3 class="card-title">Genius (Série - Saison 1)</h3>
+                        <p class="card-text"><img src="/assets/icons/calendrier.svg">2017 - Various</p>
+                    </article>
                 </div>
             </section>
+        </section>
+    </main>
 
-            <section class="content">
-                <h2 class="section-title">Retour vers le Futur et la science</h2>
-                <img src="/assets/img/voiture.avif" alt="Voiture du film Retour vers le Futur" class="content-image" loading="lazy" />
-                <p>
-                    "Retour vers le Futur" (1985) est devenu un film culte qui a introduit les concepts de voyage dans le temps, de paradoxes temporels et de relativité à des millions de spectateurs. Bien que romancé et simplifié, le film offre une excellente porte d'entrée pour discuter des vraies théories scientifiques.
-                </p>
-                <p>
-                    Le film peut être utilisé comme outil pédagogique pour aborder les travaux de physiciens comme Einstein, et par extension, pour évoquer le rôle méconnu de Mileva Marić Einstein dans le développement de la théorie de la relativité.
-                </p>
-            </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="/index.html" class="footer-logo" aria-label="Retour à l'accueil">
+                <img src="/assets/icons/Logo.svg" alt="Logo Chronova" loading="lazy" />
+                <p>Chronova</p>
+            </a>
 
-            <section class="article-section">
-                <h2 class="section-title">Analyse scientifique</h2>
+            <nav class="footer-nav" aria-label="Navigation du footer">
+                <p class="footer-nav-title">Liens utiles</p>
+                <ul class="footer-nav-list">
+                    <li><a href="/fr/a-propos.html" class="footer-nav-link">À propos</a></li>
+                    <li><a href="/fr/artistes.html" class="footer-nav-link">Mentions Légales</a></li>
+                    <li><a href="/fr/glossaire.html" class="footer-nav-link">Glossaire</a></li>
+                    <li><a href="/fr/contact.html" class="footer-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
 
-                <p>
-                    "Retour vers le Futur" illustre brillamment les concepts de dilatation temporelle et de paradoxes causaux. La fameuse DeLorean atteignant 88 mph (141 km/h) fait référence à la vitesse nécessaire pour franchir une "barrière temporelle" imaginaire, un parallèle créatif avec la vitesse de la lumière en physique relativiste.
-                </p>
-                <p>
-                    Le film soulève des questions fondamentales sur la nature du temps et de la causalité, thèmes centraux dans les travaux de Mileva Einstein sur la relativité restreinte.
-                </p>
-
-                <h2 class="section-title">Films corrélés</h2>
-                <section class="carousel" aria-label="Carrousel tactile">
-                    <div class="carousel-track">
-                        <article class="card">
-                            <img src="/assets/img/film1.avif" alt="Illustration carte 1" class="card-img" />
-                            <h3 class="card-title">Les figures de l’ombre</h3>
-                            <p class="card-text"><img src="/assets/icons/calendrier.svg">2016 - Theodore Melfi</p>
-                        </article>
-
-                        <article class="card">
-                            <img src="/assets/img/film2.avif" alt="Illustration carte 2" class="card-img" />
-                            <h3 class="card-title">Radioactive</h3>
-                            <p class="card-text"><img src="/assets/icons/calendrier.svg">2019 - Marjane Satrapi</p>
-                        </article>
-
-                        <article class="card">
-                            <img src="/assets/img/film3.avif" alt="Illustration carte 3" class="card-img" />
-                            <h3 class="card-title">Einstein & Eddington</h3>
-                            <p class="card-text"><img src="/assets/icons/calendrier.svg">2008 - Philip Martin</p>
-                        </article>
-
-                        <article class="card">
-                            <img src="/assets/img/film4.avif" alt="Illustration carte 4" class="card-img" />
-                            <h3 class="card-title">Genius (Série - Saison 1)</h3>
-                            <p class="card-text"><img src="/assets/icons/calendrier.svg">2017 - Various</p>
-                        </article>
-                    </div>
-                </section>
-            </section>
-        </main>
-
-        <footer class="footer">
-            <div class="footer-content">
-                <a href="/index.html" class="footer-logo" aria-label="Retour à l'accueil">
-                    <img src="/assets/icons/Logo.svg" alt="Logo Chronova" loading="lazy" />
-                    <p>Chronova</p>
+        <div class="footer-social">
+            <p class="social-title">Nous suivre</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                    <img src="/assets/icons/Facebook.svg" alt="" aria-hidden="true" loading="lazy" />
                 </a>
-
-                <nav class="footer-nav" aria-label="Navigation du footer">
-                    <p class="footer-nav-title">Liens utiles</p>
-                    <ul class="footer-nav-list">
-                        <li><a href="/fr/a-propos.html" class="footer-nav-link">À propos</a></li>
-                        <li><a href="/fr/artistes.html" class="footer-nav-link">Mentions Légales</a></li>
-                        <li><a href="/fr/glossaire.html" class="footer-nav-link">Glossaire</a></li>
-                        <li><a href="/fr/contact.html" class="footer-nav-link">Contact</a></li>
-                    </ul>
-                </nav>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                    <img src="/assets/icons/Instagram.svg" alt="" aria-hidden="true" loading="lazy" />
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                    <img src="/assets/icons/Twitter.svg" alt="" aria-hidden="true" loading="lazy" />
+                </a>
             </div>
+        </div>
 
-            <div class="footer-social">
-                <p class="social-title">Nous suivre</p>
-                <div class="social-links">
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
-                        <img src="/assets/icons/Facebook.svg" alt="" aria-hidden="true" loading="lazy" />
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
-                        <img src="/assets/icons/Instagram.svg" alt="" aria-hidden="true" loading="lazy" />
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
-                        <img src="/assets/icons/Twitter.svg" alt="" aria-hidden="true" loading="lazy" />
-                    </a>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <hr />
-                <p>Lina BEN MABROUK TP B1</p>
-                <p>© Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
-            </div>
-        </footer>
-    </body>
+        <div class="footer-bottom">
+            <hr />
+            <p>Lina BEN MABROUK TP B1</p>
+            <p>© Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+        </div>
+    </footer>
+</body>
 </html>

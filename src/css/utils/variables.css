@@ -1,0 +1,41 @@
+/* Variable collection */
+:root {
+  /* Mode 1 */
+  /* color */
+  --blanc: #ffffff;
+  --ivoire: #faf3dd;
+  --noir: #000000;
+  --noir-bleuté: #2c2c54;
+  --or-pâle: #e9c46a;
+  --vert-céladon: #a8dadc;
+}
+/* Text Style Variables */
+:root {
+  /* Mode 1 */
+  /* number */
+  --font-size-10: 0.625rem;
+  --font-size-13: 0.8125rem;
+  --font-size-15: 0.9375rem;
+  --font-size-20: 1.25rem;
+  --font-size-40: 2.5rem;
+  --font-size-50: 3.125rem;
+  --font-weight-regular: 25rem;
+  --font-weight-semibold: 37.5rem;
+  --font-weight-bold: 43.75rem;
+  --letter-spacing-0: 0rem;
+  --line-height-13: 0.8125rem;
+  --line-height-17: 1.0625rem;
+  --line-height-19: 1.1875rem;
+  --line-height-20: 1.25rem;
+  --line-height-24: 1.5rem;
+  --line-height-54: 3.375rem;
+  --line-height-65: 4.0625rem;
+  --list-spacing-0: 0rem;
+  --paragraph-indent-0: 0rem;
+  --paragraph-spacing-0: 0rem;
+  --paragraph-spacing-15: 0.9375rem;
+  /* string */
+  --font-family-cormorant-garamond: Cormorant Garamond;
+  --font-family-crimson-text: Crimson Text;
+  --font-family-hanken-grotesk: Hanken Grotesk;
+}

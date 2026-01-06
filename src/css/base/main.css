@@ -1,6 +1,7 @@
 body {
-    font-family: "Cuprum", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Hanken Grotesk, sans-serif;
+    background-color: var(--ivoire);
+    color: var(--noir-bleuté);
 }

@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--or-pâle);
+    padding: 1rem 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    z-index: 10;
+}
+
+.logo img { 
+    width: 28px;
+    height: auto;
+    display: block;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--noir-bleuté);
+}
+
+.logo-text {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 6px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--or-pâle);
+    border: 1px solid var(--noir-bleuté);
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1rem;
+    color: var(--noir-bleuté);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lang-switch img {
+    width: 15px;
+    height: 15px;
+}
+
+.lang-label {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #1a1a1a;
+}
+
+.nav {
+    display: none;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}

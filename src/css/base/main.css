@@ -5,3 +5,133 @@ body {
     background-color: var(--ivoire);
     color: var(--noir-bleuté);
 }
+
+.introduction {
+    padding: 0rem 1.5rem;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.title {
+    font-family: 'Crimson Text', sans-serif;
+    font-size: var(--Font-Size-50, 50px);
+    font-weight: var(--Font-Weight-regular, 400);
+    color: var(--noir-bleuté);
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: var(--Font-Size-20, 20px);
+    font-weight: var(--Font-Weight-bold, 700);
+    color: var(--or-foncé);
+    margin: 0;
+}
+
+.description {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: var(--Font-Size-15, 15px);
+    font-weight: 400;
+    color: var(--noir-bleuté);
+    line-height: var(--Line-Height-20, 20px);
+    margin: 0;
+}
+
+.section-separator {
+    font-family: 'Crimson Text', serif;
+    font-size: 2.5rem;
+    color: rgba(233, 196, 106, 0.50);
+    padding-left: 2rem;
+    text-align: center;
+    letter-spacing: 40px;
+}
+
+
+.discover {
+    padding: 0rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--noir-bleuté);
+    margin: 0;
+    border: 3px solid var(--noir-bleuté);
+    padding: 1rem 4rem;
+}
+
+.content {
+    background-color: var(--noir-bleuté);
+    background-image: url('/assets/img/fond.avif');
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 4rem 2rem;
+    text-align: center;
+    color: var(--or-foncé);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.content-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--or-pâle);
+    letter-spacing: 0rem;
+}
+
+.content-description {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 700px;
+    line-height: var(--Line-Height-20, 20px);
+    margin: 0;
+    color: var(--or-pâle);
+}
+
+.information {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Crimson Text', serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--or-foncé);
+    text-decoration: none;
+    border: 2px solid var(--or-foncé);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.information:hover {
+    background-color: var(--or-foncé);
+    color: var(--bleu-nuit);
+}
+
+.information img {
+    width: 14px;
+    height: 14px;
+}
+
+
+

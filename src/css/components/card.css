@@ -1,0 +1,98 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    border: 3px solid var(--or-pâle);
+    background-color: var(--blanc);
+    padding: 2rem;
+    max-width: 400px;
+    text-decoration: none;
+    color: var(--noir-bleuté);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+}
+
+.card-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: var(--Font-Size-20, 20px);
+    font-weight: var(--Font-Weight-bold, 700);
+    margin: 0;
+    text-align: left;
+}
+
+.card p {
+    font-family: 'Hanken Grotesk', serif;
+    font-size: var(--Font-Size-13, 13px);
+    font-weight: 400;
+    margin: 0;
+    line-height: var(--Line-Height-17, 17px); /* 130.769% */
+    text-align: left;
+}
+
+.card-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: none;
+    border: 2px solid var(--noir-bleuté);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--vert-céladon);
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.card-button img {
+    width: 13px;
+    height: 13px;
+}
+
+.card-date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Hanken Grotesk', serif;
+    font-size: var(--Font-Size-13, 13px);
+    font-weight: 500;
+    color: var(--or-pâle);
+    margin: 0;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+}
+
+.card-button img,
+.card-date img,
+.card img.future {
+    width: auto;
+    height: auto;
+}
+
+.card img.future {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+

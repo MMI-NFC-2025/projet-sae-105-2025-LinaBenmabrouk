@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronova</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/style.css"/>
+
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/site.webmanifest" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html" class="logo" aria-label="Retour à l'accueil">
+            <img src="/assets/icons/Logo.svg" alt="Logo Chronova" loading="lazy" />
+        </a>
+
+        <button class="menu-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </button>
+
+        <nav class="nav" aria-label="Navigation principale">
+            <ul class="nav-list">
+                <li><a href="/fr/histoire.html" class="nav-link">Mileva Einstein : La Chercheuse</a></li>
+                <li><a href="/fr/effet-matilda.html" class="nav-link">Effet Matilda</a></li>
+                <li><a href="/fr/article.html" class="nav-link">Les Femmes de Sciences</a></li>
+                <li><a href="/fr/theorie.html" class="nav-link">Espace-Temps & Vitesse de la Lumière</a></li>
+                <li><a href="/fr/livre.html" class="nav-link">L'Espace-Temps, Jean-Paul Auffray</a></li>
+                <li><a href="/fr/film.html" class="nav-link">Retour vers le Futur</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <a href="/index.html" class="hero-button" aria-label="Retour à l'accueil">
+                <img src="/assets/icons/fleche_gauche.svg" alt="" loading="lazy" /> Retour à l'accueil
+            </a>
+        </div>
+
+        <section class="introduction" aria-labelledby="titre-livre">
+            <h1 id="titre-livre" class="title">L'Espace-Temps</h1>
+            <p class="description">Jean-Paul Auffray</p>
+        </section>
+
+        <section class="article-section" aria-labelledby="section-apropos">
+            <h2 id="section-apropos" class="section-title">À Propos de l'Ouvrage</h2>
+            <p>L'ouvrage de Jean-Paul Auffray offre une vulgarisation magistrale des concepts d'espace-temps qui ont révolutionné la physique au début du XXe siècle. Alliant rigueur scientifique et clarté pédagogique, l'auteur dévoile les mystères de la relativité restreinte et générale.</p>
+            <img src="/assets/img/livre.avif" class="card-image" alt="Couverture du livre L'Espace-Temps de Jean-Paul Auffray" loading="lazy" />
+            <p>Ce livre s'adresse aussi bien aux étudiants en physique qu'aux curieux passionnés par les grandes questions de l'univers. Il permet de comprendre comment l'espace et le temps, autrefois considérés comme des entités séparées et absolues, ont été réunis en une seule structure mathématique.</p>
+
+            <h2 class="section-title" id="extrait-ouvrage">Extrait de l'Ouvrage</h2>
+            <div class="cards-container" aria-labelledby="extrait-ouvrage">
+                <p>“La relativité restreinte repose sur deux postulats fondamentaux qui ont des conséquences extraordinaires : l'espace et le temps ne sont pas des entités absolues et indépendantes, mais forment un continuum quadridimensionnel, l'espace-temps.<br>
+                Pour établir mathématiquement cette nouvelle vision, il fallut développer les transformations de Lorentz. Ces équations montrent que le temps se dilate et les longueurs se contractent pour un observateur en mouvement relatif. Le facteur de Lorentz, γ = 1/√(1 - v²/c²), apparaît dans toutes ces transformations et joue un rôle central.<br>
+                Ces calculs mathématiques, d'une complexité redoutable, nécessitaient une maîtrise exceptionnelle de l'analyse mathématique et de la géométrie. Chaque étape devait être vérifiée avec une rigueur absolue, car la moindre erreur dans ces longues chaînes de raisonnement pouvait invalider l'ensemble de la théorie.”</p>
+                <p class="citation">Jean-Paul Auffray, L'Espace-Temps, p. 45-47</p>
+            </div>
+        </section>
+
+        <section class="content" aria-labelledby="section-mileva">
+            <h2 id="section-mileva" class="section-title">Le Lien avec Mileva Einstein</h2>
+            <p>Comment cet ouvrage éclaire les contributions de Mileva.</p>
+
+            <div class="cards-container" aria-label="Lien entre Mileva Einstein et les mathématiques complexes">
+                <h3 class="card-title">Les Mathématiques Complexes</h3>
+                <p>L'ouvrage d'Auffray met en lumière la complexité mathématique derrière la relativité restreinte. Les transformations de Lorentz, les calculs tensoriels et les équations différentielles nécessitaient une maîtrise exceptionnelle des mathématiques - domaine dans lequel Mileva excellait.</p>
+            </div>
+
+            <div class="cards-container" aria-label="Contexte collaboratif entre Albert et Mileva Einstein">
+                <h3 class="card-title">Le Contexte Collaboratif</h3>
+                <p>Auffray décrit le contexte scientifique du début du XXe siècle, où la collaboration entre physiciens était courante. Ce contexte historique aide à comprendre la dynamique de travail entre Albert et Mileva.</p>
+            </div>
+
+            <div class="cards-container" aria-label="Rôle de Mileva dans la vérification des calculs">
+                <h3 class="card-title">La Vérification des Calculs</h3>
+                <p>L'ouvrage présente les nombreuses étapes de calculs qui ont conduit aux équations finales de la relativité. Mileva elle-même a affirmé : "J'ai vérifié tous les calculs mathématiques." En comprenant la densité de ces calculs grâce au livre d'Auffray, on mesure l'importance de cette contribution.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="/index.html" class="footer-logo" aria-label="Retour à l'accueil">
+                <img src="/assets/icons/Logo.svg" alt="Logo Chronova" loading="lazy" />
+                <p>Chronova</p>
+            </a>
+
+            <nav class="footer-nav" aria-label="Navigation du footer">
+                <p class="footer-nav-title">Liens utiles</p>
+                <ul class="footer-nav-list">
+                    <li><a href="/fr/a-propos.html" class="footer-nav-link">À propos</a></li>
+                    <li><a href="/fr/artistes.html" class="footer-nav-link">Mentions Légales</a></li>
+                    <li><a href="/fr/glossaire.html" class="footer-nav-link">Glossaire</a></li>
+                    <li><a href="/fr/contact.html" class="footer-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-social">
+            <p class="social-title">Nous suivre</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+                    <img src="/assets/icons/Facebook.svg" alt="" aria-hidden="true" loading="lazy" />
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+                    <img src="/assets/icons/Instagram.svg" alt="" aria-hidden="true" loading="lazy" />
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                    <img src="/assets/icons/Twitter.svg" alt="" aria-hidden="true" loading="lazy" />
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <hr />
+            <p>Lina BEN MABROUK TP B1</p>
+            <p>© Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+        </div>
+    </footer>
+</body>
+</html>

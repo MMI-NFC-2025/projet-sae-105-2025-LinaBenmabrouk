@@ -1,0 +1,78 @@
+.timeline {
+    background-color: var(--noir-bleuté);
+    padding: 1rem 2rem;
+    text-align: center;
+    color: var(--or-foncé);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.timeline-container {
+    position: relative;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: -1.5rem;
+    top: 1rem;
+    bottom: 1rem;
+    width: 2px;
+    background-color: var(--or-pâle);
+    pointer-events: none;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 2rem;
+    border: 3px solid var(--or-pâle);
+    background-color: var(--ivoire);
+    text-align: center;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--or-pâle);
+    border-radius: 50%;
+    border: 2px solid var(--noir-bleuté);
+}
+
+.timeline-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--vert-céladon);
+    text-transform: uppercase;
+    margin: 0;
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+
+.timeline-year {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--noir-bleuté);
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.timeline-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--noir-bleuté);
+    margin: 0;
+}

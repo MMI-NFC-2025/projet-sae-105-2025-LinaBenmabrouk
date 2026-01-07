@@ -6,6 +6,14 @@ body {
     color: var(--noir-bleuté);
 }
 
+.timeline-title a {
+    color: var(--vert-céladon);
+}
+
+.timeline-title a:hover {
+    color: var(--ivoire);
+}
+
 .introduction {
     padding: 0rem 1.5rem;
     text-align: center;

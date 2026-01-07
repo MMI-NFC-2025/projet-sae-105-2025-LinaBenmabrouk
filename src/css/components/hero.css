@@ -2,14 +2,12 @@
     position: relative;
     background-image: url("/assets/img/fond.avif");
     background-position: center;
-    background-size: 120%;
-    min-height: 280px;
-    min-width: 100%;
-    padding: 3rem 1.5rem;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .hero.has-button .mileva{
@@ -48,12 +46,11 @@
 .mileva {
     width: 220px;
     height: 220px;
-    margin-right: 3rem;
+    margin-top: 3rem;
 }
 
 .accceuil {
     width: 220px;
     height: 220px;
-    margin-right: 3rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }

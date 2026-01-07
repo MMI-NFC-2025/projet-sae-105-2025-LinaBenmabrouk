@@ -5,17 +5,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!toggleButton || !nav) return;
 
-    toggleButton.addEventListener('click', () => {
+    toggleButton.addEventListener('click', (e) => {
+        e.stopPropagation();
         const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true';
         toggleButton.setAttribute('aria-expanded', String(!isExpanded));
         nav.classList.toggle('active');
     });
 
-    // Fermer le menu quand on clique sur un lien
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
             nav.classList.remove('active');
             toggleButton.setAttribute('aria-expanded', 'false');
         });
+    });
+
+    document.addEventListener('click', (e) => {
+        const isClickInsideMenu = nav.contains(e.target);
+        const isClickOnButton = toggleButton.contains(e.target);
+
+        if (!isClickInsideMenu && !isClickOnButton) {
+            nav.classList.remove('active');
+            toggleButton.setAttribute('aria-expanded', 'false');
+        }
     });
 });

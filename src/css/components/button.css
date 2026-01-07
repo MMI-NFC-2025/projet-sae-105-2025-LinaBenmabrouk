@@ -61,6 +61,7 @@
     font-size: 1rem;
     font-weight: 600;
     color: var(--noir-bleuté);
+    background-color: var(--or-pâle);
     text-decoration: none;
     max-width: 100%;
 }

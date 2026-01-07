@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : BEN MABROUK
+- PRÉNOM : Lina
+- GROUPE : B2
+- URL du site : 
+- URL FIGMA : https://www.figma.com/design/v5ZeE7pCeOmxwYfugePRZ4/Maquettes-projet-individuel-%E2%80%94-Lina-BEN-MABROUK?node-id=0-1&t=dbnIjoZwFiadgYcu-1 

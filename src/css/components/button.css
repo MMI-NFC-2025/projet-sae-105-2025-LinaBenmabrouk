@@ -16,7 +16,7 @@
 }
 
 .cta-button:hover {
-    transform: translateY(-2px);
+    background-color: var(--vert-céladon)
 }
 
 .cta-button img {
@@ -42,12 +42,12 @@
 }
 
 .information:hover {
-    transform: translateY(-2px);
+    background-color: var(--vert-céladon);
 }
 
 .information img {
-    width: 13px;
-    height: 13px;
+    width: 14px;
+    height: 14px;
 }
 
 .other-articles-button {
@@ -65,15 +65,15 @@
     max-width: 100%;
 }
 
+.other-articles-button:hover {
+    background-color: var(--vert-céladon);
+}
+
 .other-articles-button img {
     width: 16px;
     height: 16px;
-    transition: transform 0.2s ease;
 }
 
-.other-articles-button:hover img {
-    transform: translateX(4px);
-}
 
 
 

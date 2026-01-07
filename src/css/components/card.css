@@ -21,10 +21,6 @@
     transition: transform 0.2s ease;
 }
 
-.card:hover {
-    transform: translateY(-2px);
-}
-
 .card img {
     width: 40px;
     height: 40px;

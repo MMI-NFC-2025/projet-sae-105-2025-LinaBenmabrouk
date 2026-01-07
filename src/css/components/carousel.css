@@ -29,11 +29,6 @@
     color: var(--noir-bleuté);
     text-decoration: none;
     transition: transform 0.2s ease;
-    border-radius: 10px;
-}
-
-.carousel-card:hover {
-    transform: translateY(-2px);
 }
 
 .carousel-card .illustration {

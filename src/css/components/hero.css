@@ -40,10 +40,6 @@
     z-index: 2;
 }
 
-.hero-button:hover {
-    transform: translateY(-2px);
-}
-
 .hero-button img {
     width: 20px;
     height: 20px;
@@ -52,4 +48,12 @@
 .mileva {
     width: 220px;
     height: 220px;
+    margin-right: 3rem;
+}
+
+.accceuil {
+    width: 220px;
+    height: 220px;
+    margin-right: 3rem;
+    margin-top: 2rem;
 }

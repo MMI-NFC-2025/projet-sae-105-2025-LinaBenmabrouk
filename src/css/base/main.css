@@ -115,22 +115,12 @@ body {
     font-family: 'Crimson Text', serif;
     font-size: 1rem;
     font-weight: 600;
-    color: var(--or-foncé);
+    color: var(--or-pâle);
     text-decoration: none;
-    border: 2px solid var(--or-foncé);
+    border: 2px solid var(--or-pâle);
     padding: 0.5rem 1rem;
     border-radius: 8px;
     transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.information:hover {
-    background-color: var(--or-foncé);
-    color: var(--bleu-nuit);
-}
-
-.information img {
-    width: 14px;
-    height: 14px;
 }
 
 .other-articles {

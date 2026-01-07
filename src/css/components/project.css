@@ -16,10 +16,6 @@
     transition: transform 0.2s ease;
 }
 
-.project-container:hover {
-    transform: translateY(-2px);
-}
-
 .project-img {
     width: 100%;
     height: auto;

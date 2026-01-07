@@ -4,6 +4,7 @@
     background-position: center;
     background-size: 120%;
     min-height: 280px;
+    min-width: 100%;
     padding: 3rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -51,5 +52,4 @@
 .mileva {
     width: 220px;
     height: 220px;
-    object-fit: cover;
 }

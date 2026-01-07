@@ -1,0 +1,46 @@
+.content {
+    padding: 3rem 1.5rem;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 3px solid var(--or-pâle);
+    background-color: var(--blanc);
+    transition: transform 0.2s ease;
+}
+
+.project-container:hover {
+    transform: translateY(-2px);
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-item {
+    width: 100%;
+    text-align: left;
+}
+
+.project-item hr {
+    border: none;
+    border-top: 1px solid var(--or-pâle);
+    margin: 1rem 0rem;
+}
+
+.project-description {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--noir-bleuté);
+    padding-top: 1rem;
+}

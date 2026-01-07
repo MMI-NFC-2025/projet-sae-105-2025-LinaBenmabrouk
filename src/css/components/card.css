@@ -47,6 +47,15 @@
     text-align: left;
 }
 
+.card hr {
+    width: 100%;
+    height: 2px;
+    background-color: var(--or-pâle);
+    border: none;
+    margin: 0.5rem 0;
+}
+
+
 .card-button {
     display: inline-flex;
     align-items: center;

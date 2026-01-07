@@ -82,7 +82,7 @@ body {
 .content {
     background-color: var(--noir-bleuté);
     background-image: url('/assets/img/fond.avif');
-    background-size: 150%;
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
 
